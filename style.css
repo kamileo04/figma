@@ -650,25 +650,16 @@
 
  .desktop .text-wrapper-14 {
      position: absolute;
-     width: 1273px;
-     height: 75px;
-     left: 0;
-     font-size: 24px;
+     width: 477px;
+     height: 185px;
+     top: 0px;
+     left: 71px;
      text-align: center;
-     font-family: "Nunito", Helvetica;
+     font-size: 48px;
+     padding-top: 40px;
+     color: white;
+     font-family: "Nunito-SemiBold", Helvetica;
      font-weight: 600;
-     color: #ffffff;
-     letter-spacing: 0;
-     line-height: normal;
-     font-family: var(--tekst-w-sekcji-font-family);
-     font-weight: var(--tekst-w-sekcji-font-weight);
-     color: #ffffff;
-     font-size: var(--tekst-w-sekcji-font-size);
-     text-align: center;
-     letter-spacing: var(--tekst-w-sekcji-letter-spacing);
-     line-height: var(--tekst-w-sekcji-line-height);
-     font-style: var(--tekst-w-sekcji-font-style);
- }
  }
 
  .desktop .kamery-2 {
@@ -1482,8 +1473,7 @@
          font-family: var(--buttony-font-family);
          font-weight: var(--buttony-font-weight);
          color: #1a1c28;
-         font-size: 30px;
-         text-align: center;
+         font-size: 30p text-align: center;
          letter-spacing: var(--buttony-letter-spacing);
          line-height: var(--buttony-line-height);
          font-style: var(--buttony-font-style);
@@ -1572,13 +1562,13 @@
          position: absolute;
          width: 1273px;
          height: 75px;
-         top: 1023px;
+         top: 1550px;
          left: 0;
-         font-size: 24px;
-         text-align: center;
          font-family: "Nunito", Helvetica;
          font-weight: 600;
          color: #ffffff;
+         font-size: 24px;
+         text-align: center;
          letter-spacing: 0;
          line-height: normal;
      }
