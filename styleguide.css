@@ -1,0 +1,20 @@
+:root {
+  --sekcje-font-family: "Nunito-SemiBold", Helvetica;
+  --sekcje-font-weight: 600;
+  --sekcje-font-size: 48px;
+  --sekcje-letter-spacing: 0px;
+  --sekcje-line-height: normal;
+  --sekcje-font-style: normal;
+  --tekst-w-sekcji-font-family: "Nunito-Regular", Helvetica;
+  --tekst-w-sekcji-font-weight: 400;
+  --tekst-w-sekcji-font-size: 32px;
+  --tekst-w-sekcji-letter-spacing: 0px;
+  --tekst-w-sekcji-line-height: normal;
+  --tekst-w-sekcji-font-style: normal;
+  --buttony-font-family: "Nunito-SemiBold", Helvetica;
+  --buttony-font-weight: 600;
+  --buttony-font-size: 40px;
+  --buttony-letter-spacing: 0px;
+  --buttony-line-height: normal;
+  --buttony-font-style: normal;
+}

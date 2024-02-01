@@ -1,0 +1,1887 @@
+ body {
+     margin: 0;
+     padding: 0;
+ }
+
+ .iphone {
+     display: none;
+ }
+
+ .desktop {
+     position: relative;
+     background-color: #c0c0c0;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     min-height: 100vh;
+
+ }
+
+ .desktop .overlap-wrapper {
+     background-color: #c0c0c0;
+     overflow: hidden;
+     width: 100%;
+     max-width: 1444px;
+
+     height: 5775px;
+     margin: 0 auto;
+
+     box-sizing: border-box;
+ }
+
+ .desktop .overlap {
+     position: relative;
+     width: 1490px;
+     height: 6678px;
+     top: -1px;
+     left: -1px;
+ }
+
+ .desktop .glowna {
+     position: relative;
+     width: 100%;
+     height: 6678px;
+     top: 0;
+     left: 0;
+     background-color: #ffffff;
+ }
+
+ .desktop .to {
+     position: relative;
+     width: 1440px;
+     height: 665px;
+     top: 123px;
+     left: 0;
+ }
+
+ .desktop .img {
+     position: relative;
+     width: 1440px;
+     height: 665px;
+     top: -2px;
+     left: 1px;
+     object-fit: cover;
+ }
+
+ .desktop .rectangle {
+     position: relative;
+     width: 1440px;
+     height: 3009px;
+     top: 664px;
+     left: 1px;
+ }
+
+ .desktop .mac {
+     position: relative;
+     width: 620px;
+     height: 600px;
+     top: 2376px;
+     left: 80px;
+     object-fit: cover;
+ }
+
+ .desktop .kamerazdj {
+     position: relative;
+     width: 620px;
+     height: 600px;
+     top: 1691px;
+     left: 120px;
+     object-fit: cover;
+ }
+
+ .desktop .overlap-group {
+     position: absolute;
+     width: 1440px;
+     height: 1197px;
+     top: 3792px;
+     left: 1px;
+     background-image: url(./img/cennikbg-2.svg);
+     background-size: 100% 100%;
+ }
+
+ .desktop .cennikbg {
+     position: absolute;
+     width: 1440px;
+     height: 957px;
+     top: 0;
+     left: 0;
+ }
+
+ .desktop .srebrny {
+     position: absolute;
+     width: 486px;
+     height: 842px;
+     top: 275px;
+     left: 159px;
+     background-color: #c0c0c0;
+     border-radius: 40px;
+ }
+
+ .desktop .div {
+     position: absolute;
+     top: 186px;
+     left: 109px;
+     font-family: "Nunito", Helvetica;
+     font-weight: 600;
+     color: #000000;
+     font-size: 96px;
+     letter-spacing: 0;
+     line-height: normal;
+ }
+
+ .desktop .text-wrapper {
+     font-family: "Nunito", Helvetica;
+     font-weight: 600;
+     color: #000000;
+     font-size: 96px;
+     letter-spacing: 0;
+ }
+
+ .desktop .span {
+     font-size: var(--sekcje-font-size);
+     font-family: var(--sekcje-font-family);
+     font-style: var(--sekcje-font-style);
+     font-weight: var(--sekcje-font-weight);
+     letter-spacing: var(--sekcje-letter-spacing);
+     line-height: var(--sekcje-line-height);
+ }
+
+ .desktop .overlap-2 {
+     position: absolute;
+     width: 352px;
+     height: 65px;
+     top: 65px;
+     left: 36px;
+ }
+
+ .desktop .text-wrapper-2 {
+     position: absolute;
+     width: 352px;
+     top: 0;
+     left: 0;
+     font-family: "Nunito", Helvetica;
+     font-weight: 600;
+     color: #1a1c28;
+     font-size: 48px;
+     letter-spacing: 0;
+     line-height: normal;
+ }
+
+ .desktop .overlap-group-2 {
+     position: absolute;
+     width: 410px;
+     height: 395px;
+     top: 373px;
+     left: 39px;
+ }
+
+ .desktop .p {
+     position: absolute;
+     width: 410px;
+     top: 0;
+     left: 0;
+     font-family: var(--tekst-w-sekcji-font-family);
+     font-weight: var(--tekst-w-sekcji-font-weight);
+     color: #1a1c28;
+     font-size: var(--tekst-w-sekcji-font-size);
+     letter-spacing: var(--tekst-w-sekcji-letter-spacing);
+     line-height: var(--tekst-w-sekcji-line-height);
+     font-style: var(--tekst-w-sekcji-font-style);
+ }
+
+ .desktop .sub {
+     display: flex;
+     width: 300px;
+     height: 100px;
+     align-items: center;
+     justify-content: center;
+     padding: 20px;
+     position: absolute;
+     top: 289px;
+     left: 102px;
+     background-color: #1a1c28;
+     border-radius: 20px;
+ }
+
+ .desktop .text-wrapper-3 {
+     position: relative;
+     flex: 1;
+     align-self: stretch;
+     margin-top: -1px;
+     font-family: var(--buttony-font-family);
+     font-weight: var(--buttony-font-weight);
+     color: #ffffff;
+     font-size: var(--buttony-font-size);
+     text-align: center;
+     letter-spacing: var(--buttony-letter-spacing);
+     line-height: var(--buttony-line-height);
+     font-style: var(--buttony-font-style);
+ }
+
+ .desktop .zloty {
+     position: absolute;
+     width: 486px;
+     height: 842px;
+     top: 275px;
+     left: 805px;
+     background-color: #f2c01f;
+     border-radius: 40px;
+ }
+
+ .desktop .pakzlo {
+     position: absolute;
+     width: 352px;
+     top: 65px;
+     left: 36px;
+     font-family: "Nunito", Helvetica;
+     font-weight: 600;
+     color: #1a1c28;
+     font-size: 48px;
+     letter-spacing: 0;
+     line-height: normal;
+ }
+
+ .desktop .overlap-3 {
+     position: absolute;
+     width: 1440px;
+     height: 663px;
+     top: 5019px;
+     left: 1px;
+ }
+
+ .desktop .rectangle-2 {
+     position: absolute;
+     width: 1440px;
+     height: 502px;
+     top: 161px;
+     left: 0;
+ }
+
+ .desktop .rectangle-3 {
+     position: absolute;
+     width: 1440px;
+     height: 307px;
+     top: 0;
+     left: 0;
+ }
+
+ .desktop .slogan {
+     position: absolute;
+     width: 1198px;
+     height: 269px;
+     top: 1056px;
+     left: 122px;
+     border-radius: 20px;
+     background-image: url(./img/obramowanie.svg);
+     background-size: 100% 100%;
+ }
+
+ .desktop .slogantekst {
+     position: absolute;
+     width: 1162px;
+     top: 32px;
+     left: 19px;
+     font-family: "Nunito", Helvetica;
+     font-weight: 600;
+     color: transparent;
+     font-size: 75px;
+     text-align: center;
+     letter-spacing: 0;
+     line-height: normal;
+ }
+
+ .desktop .text-wrapper-4 {
+     color: #1a1c28;
+ }
+
+ .desktop .text-wrapper-5 {
+     color: #ffffff;
+ }
+
+ .desktop .powrot {
+     display: flex;
+     width: 500px;
+     height: 100px;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     padding: 20px;
+     position: absolute;
+     top: 5146px;
+     left: 471px;
+     background-color: #1a1c28;
+     border-radius: 20px;
+ }
+
+ .desktop .kamery {
+     position: relative;
+     width: fit-content;
+     font-family: var(--buttony-font-family);
+     font-weight: var(--buttony-font-weight);
+     color: #ffffff;
+     font-size: var(--buttony-font-size);
+     text-align: center;
+     letter-spacing: var(--buttony-letter-spacing);
+     line-height: var(--buttony-line-height);
+     font-style: var(--buttony-font-style);
+ }
+
+ .desktop .sociale {
+     position: absolute;
+     width: 1440px;
+     height: 125px;
+     top: 5651px;
+     left: 1px;
+     background-color: #1a1c28;
+ }
+
+ .desktop .social-icons {
+     position: absolute;
+     width: 45px;
+     height: 45px;
+     top: 40px;
+     left: 40px;
+     mix-blend-mode: lighten;
+ }
+
+ .desktop .social-icons-2 {
+     left: 369px;
+     position: absolute;
+     width: 45px;
+     height: 45px;
+     top: 40px;
+     mix-blend-mode: lighten;
+ }
+
+ .desktop .social-icons-3 {
+     left: 698px;
+     position: absolute;
+     width: 45px;
+     height: 45px;
+     top: 40px;
+     mix-blend-mode: lighten;
+ }
+
+ .desktop .social-icons-4 {
+     left: 1026px;
+     position: absolute;
+     width: 45px;
+     height: 45px;
+     top: 40px;
+     mix-blend-mode: lighten;
+ }
+
+ .desktop .social-icons-5 {
+     left: 1355px;
+     position: absolute;
+     width: 45px;
+     height: 45px;
+     top: 40px;
+     mix-blend-mode: lighten;
+ }
+
+ .desktop .element {
+     position: absolute;
+     width: 40px;
+     height: 40px;
+     top: 0;
+     left: 0;
+ }
+
+ .desktop .element-px {
+     top: 0;
+     left: 1400px;
+     position: absolute;
+     width: 40px;
+     height: 40px;
+ }
+
+ .desktop .footer {
+     position: absolute;
+     width: 1412px;
+     height: 178px;
+     top: 5393px;
+     left: 78px;
+     background-color: transparent;
+ }
+
+ .desktop .skontaktuj-si-z-nami {
+     position: absolute;
+     width: 418px;
+     top: 111px;
+     left: 1px;
+     font-family: "Nunito", Helvetica;
+     font-weight: 400;
+     color: #ffffff;
+     font-size: 24px;
+     letter-spacing: 0;
+     line-height: normal;
+ }
+
+ .desktop .text-wrapper-6 {
+     font-family: "Nunito", Helvetica;
+     font-weight: 400;
+     color: #ffffff;
+     font-size: 24px;
+     letter-spacing: 0;
+ }
+
+ .desktop .text-wrapper-7 {
+     font-size: var(--tekst-w-sekcji-font-size);
+     font-family: var(--tekst-w-sekcji-font-family);
+     font-style: var(--tekst-w-sekcji-font-style);
+     font-weight: var(--tekst-w-sekcji-font-weight);
+     letter-spacing: var(--tekst-w-sekcji-letter-spacing);
+     line-height: var(--tekst-w-sekcji-line-height);
+ }
+
+ .desktop .FAQ {
+     position: absolute;
+     width: 196px;
+     top: 74px;
+     left: 1px;
+     font-family: "Nunito", Helvetica;
+     font-weight: 400;
+     color: #ffffff;
+     font-size: 24px;
+     letter-spacing: 0;
+     line-height: normal;
+ }
+
+ .desktop .text-wrapper-8 {
+     position: absolute;
+     width: 141px;
+     top: 0;
+     left: 0;
+     font-family: var(--buttony-font-family);
+     font-weight: var(--buttony-font-weight);
+     color: #ffffff;
+     font-size: var(--buttony-font-size);
+     letter-spacing: var(--buttony-letter-spacing);
+     line-height: var(--buttony-line-height);
+     font-style: var(--buttony-font-style);
+ }
+
+ .desktop .mapa-strony {
+     position: absolute;
+     width: 248px;
+     top: 148px;
+     left: 1px;
+     font-family: "Nunito", Helvetica;
+     font-weight: 400;
+     color: #ffffff;
+     font-size: 24px;
+     letter-spacing: 0;
+     line-height: normal;
+ }
+
+ .desktop .kariera-w-footbaliza {
+     position: absolute;
+     width: 387px;
+     top: 111px;
+     left: 481px;
+     font-family: "Nunito", Helvetica;
+     font-weight: 400;
+     color: #ffffff;
+     font-size: 24px;
+     letter-spacing: 0;
+     line-height: normal;
+ }
+
+ .desktop .text-wrapper-9 {
+     position: absolute;
+     width: 181px;
+     top: 74px;
+     left: 481px;
+     font-family: "Nunito", Helvetica;
+     font-weight: 400;
+     color: #ffffff;
+     font-size: 24px;
+     letter-spacing: 0;
+     line-height: normal;
+ }
+
+ .desktop .text-wrapper-10 {
+     position: absolute;
+     width: 150px;
+     top: 0;
+     left: 480px;
+     font-family: var(--buttony-font-family);
+     font-weight: var(--buttony-font-weight);
+     color: #ffffff;
+     font-size: var(--buttony-font-size);
+     letter-spacing: var(--buttony-letter-spacing);
+     line-height: var(--buttony-line-height);
+     font-style: var(--buttony-font-style);
+ }
+
+ .desktop .reklama {
+     position: absolute;
+     width: 230px;
+     top: 148px;
+     left: 481px;
+     font-family: "Nunito", Helvetica;
+     font-weight: 400;
+     color: #ffffff;
+     font-size: 24px;
+     letter-spacing: 0;
+     line-height: normal;
+ }
+
+ .desktop .element-2 {
+     position: absolute;
+     width: 387px;
+     top: 111px;
+     left: 1002px;
+     font-family: "Nunito", Helvetica;
+     font-weight: 400;
+     color: #ffffff;
+     font-size: 24px;
+     letter-spacing: 0;
+     line-height: normal;
+ }
+
+ .desktop .text-wrapper-11 {
+     position: absolute;
+     width: 387px;
+     top: 74px;
+     left: 1003px;
+     font-family: "Nunito", Helvetica;
+     font-weight: 400;
+     color: #ffffff;
+     font-size: 24px;
+     letter-spacing: 0;
+     line-height: normal;
+ }
+
+ .desktop .text-wrapper-12 {
+     position: absolute;
+     width: 162px;
+     top: 0;
+     left: 960px;
+     font-family: var(--buttony-font-family);
+     font-weight: var(--buttony-font-weight);
+     color: #ffffff;
+     font-size: var(--buttony-font-size);
+     letter-spacing: var(--buttony-letter-spacing);
+     line-height: var(--buttony-line-height);
+     font-style: var(--buttony-font-style);
+ }
+
+ .desktop .e-mail {
+     position: absolute;
+     width: 24px;
+     height: 24px;
+     top: 77px;
+     left: 963px;
+ }
+
+ .desktop .phone {
+     position: absolute;
+     width: 24px;
+     height: 24px;
+     top: 114px;
+     left: 963px;
+ }
+
+ .desktop .dane {
+     position: absolute;
+     width: 620px;
+     height: 600px;
+     top: 3032px;
+     left: 741px;
+     background-color: #1a1c28;
+     border-radius: 50px;
+     overflow: hidden;
+     border: 10px solid;
+     border-color: #f2c01f;
+ }
+
+ .desktop .text-wrapper-13 {
+     position: absolute;
+     width: 446px;
+     height: 199px;
+     top: 205px;
+     left: 87px;
+     font-family: var(--tekst-w-sekcji-font-family);
+     font-weight: var(--tekst-w-sekcji-font-weight);
+     color: #ffffff;
+     font-size: var(--tekst-w-sekcji-font-size);
+     text-align: center;
+     letter-spacing: var(--tekst-w-sekcji-letter-spacing);
+     line-height: var(--tekst-w-sekcji-line-height);
+     font-style: var(--tekst-w-sekcji-font-style);
+ }
+
+ .desktop .button {
+     all: unset;
+     box-sizing: border-box;
+     display: flex;
+     width: 300px;
+     height: 100px;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     padding: 20px;
+     position: absolute;
+     top: 450px;
+     left: 160px;
+     background-color: #f2c01f;
+     border-radius: 25px;
+     border: 1px solid;
+     border-color: #ffffff66;
+ }
+
+ .desktop .home {
+     position: relative;
+     width: fit-content;
+     font-family: var(--buttony-font-family);
+     font-weight: var(--buttony-font-weight);
+     color: #1a1c28;
+     font-size: var(--buttony-font-size);
+     text-align: center;
+     letter-spacing: var(--buttony-letter-spacing);
+     line-height: var(--buttony-line-height);
+     font-style: var(--buttony-font-style);
+ }
+
+ .desktop .text-wrapper-14 {
+     position: absolute;
+     width: 1273px;
+     height: 75px;
+     left: 0;
+     font-size: 24px;
+     text-align: center;
+     font-family: "Nunito", Helvetica;
+     font-weight: 600;
+     color: #ffffff;
+     letter-spacing: 0;
+     line-height: normal;
+     font-family: var(--tekst-w-sekcji-font-family);
+     font-weight: var(--tekst-w-sekcji-font-weight);
+     color: #ffffff;
+     font-size: var(--tekst-w-sekcji-font-size);
+     text-align: center;
+     letter-spacing: var(--tekst-w-sekcji-letter-spacing);
+     line-height: var(--tekst-w-sekcji-line-height);
+     font-style: var(--tekst-w-sekcji-font-style);
+ }
+ }
+
+ .desktop .kamery-2 {
+     position: absolute;
+     width: 620px;
+     height: 600px;
+     top: 2352px;
+     left: 81px;
+     background-color: #1a1c28;
+     border-radius: 50px;
+     overflow: hidden;
+     border: 10px solid;
+     border-color: #f2c01f;
+ }
+
+ .desktop .overlap-4 {
+     position: absolute;
+     width: 506px;
+     height: 228px;
+     top: 222px;
+     left: 69px;
+ }
+
+ .desktop .w-sk-ad-zestawu {
+     position: absolute;
+     width: 506px;
+     height: 165px;
+     top: 0;
+     left: 0;
+     font-family: var(--tekst-w-sekcji-font-family);
+     font-weight: var(--tekst-w-sekcji-font-weight);
+     color: #ffffff;
+     font-size: var(--tekst-w-sekcji-font-size);
+     text-align: center;
+     letter-spacing: var(--tekst-w-sekcji-letter-spacing);
+     line-height: var(--tekst-w-sekcji-line-height);
+     font-style: var(--tekst-w-sekcji-font-style);
+ }
+
+
+
+ .desktop .button-2 {
+     all: unset;
+     box-sizing: border-box;
+     width: 300px;
+     top: 450px;
+     left: 172px;
+     border: 1px solid;
+     border-color: #e4e9ec66;
+     display: flex;
+     height: 100px;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     padding: 20px;
+     position: absolute;
+     background-color: #f2c01f;
+     border-radius: 25px;
+ }
+
+
+
+ .desktop .overlap-5 {
+     position: absolute;
+     width: 477px;
+     height: 135px;
+     top: 40px;
+     left: 84px;
+     align-content: center;
+     justify-content: center;
+ }
+
+ .desktop .text-wrapper-15 {
+     position: absolute;
+     width: 477px;
+     height: 185px;
+     top: 0;
+     left: 0;
+     font-family: var(--sekcje-font-family);
+     font-weight: var(--sekcje-font-weight);
+     color: #ffffff;
+     font-size: var(--sekcje-font-size);
+     text-align: center;
+     letter-spacing: var(--sekcje-letter-spacing);
+     line-height: var(--sekcje-line-height);
+     font-style: var(--sekcje-font-style);
+ }
+
+ .desktop .element-5 {
+     position: absolute;
+     width: 80px;
+     height: 80px;
+     top: 4px;
+     left: 186px;
+ }
+
+ .desktop .element-6 {
+     top: 550px;
+     left: 302px;
+     position: absolute;
+     width: 40px;
+     height: 40px;
+ }
+
+ .desktop .innowacje {
+     position: relative;
+     width: 100% max-width: 1361px;
+     margin: auto 90px auto 40px;
+
+     background-color: #1a1c28;
+     border-radius: 50px;
+     border: 10px solid;
+     border-color: #f2c01f;
+     top: -5000px
+ }
+
+
+ .desktop .overlap-6 {
+     position: relative;
+     width: 100%;
+     height: 393px;
+     top: 54px;
+     left: 44px;
+ }
+
+ .desktop .odwied-przysz-o {
+     position: relative;
+     width: 100%;
+     height: 374px;
+     top: 100px;
+     font-family: var(--tekst-w-sekcji-font-family);
+     font-weight: var(--tekst-w-sekcji-font-weight);
+     color: #ffffff;
+     font-size: var(--tekst-w-sekcji-font-size);
+     text-align: center;
+     letter-spacing: var(--tekst-w-sekcji-letter-spacing);
+     line-height: var(--tekst-w-sekcji-line-height);
+     font-style: var(--tekst-w-sekcji-font-style);
+ }
+
+ .desktop .text-wrapper-16 {
+     position: relative;
+     width: 1273px;
+     height: 75px;
+     top: -380px;
+     left: 0;
+     font-family: var(--sekcje-font-family);
+     font-weight: var(--sekcje-font-weight);
+     color: #ffffff;
+     font-size: var(--sekcje-font-size);
+     text-align: center;
+     letter-spacing: var(--sekcje-letter-spacing);
+     line-height: var(--sekcje-line-height);
+     font-style: var(--sekcje-font-style);
+ }
+
+ .desktop .button-3 {
+     all: unset;
+     box-sizing: border-box;
+     width: 600px;
+     top: -130px;
+     left: 337px;
+     display: flex;
+     height: 100px;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     padding: 20px;
+     position: relative;
+     background-color: #f2c01f;
+     border-radius: 25px;
+ }
+
+ .desktop .cennik {
+     position: absolute;
+     width: 806px;
+     height: 54px;
+     top: 3939px;
+     left: 324px;
+ }
+
+ .desktop .text-wrapper-17 {
+     position: absolute;
+     width: 804px;
+     top: 0;
+     left: 0;
+     font-size: var(--sekcje-font-size);
+     text-align: center;
+     white-space: nowrap;
+     font-family: var(--sekcje-font-family);
+     font-weight: var(--sekcje-font-weight);
+     color: #ffffff;
+     letter-spacing: var(--sekcje-letter-spacing);
+     line-height: var(--sekcje-line-height);
+     font-style: var(--sekcje-font-style);
+ }
+
+ .desktop .header {
+     position: fixed;
+     width: 100%;
+     height: 121px;
+     top: 0;
+     left: 1;
+     background-color: transparent;
+     z-index: 9999;
+
+ }
+
+ .desktop .overlap-7 {
+     position: relative;
+     width: 1440px;
+     height: 120px;
+     left: 1px;
+     background-image: url(./img/tloheader.svg);
+     background-size: 100% 100%;
+ }
+
+ .desktop .overlap-group-3 {
+     position: absolute;
+     width: 432px;
+     height: 120px;
+     top: 0;
+     left: 0;
+ }
+
+ .desktop .logo {
+     position: absolute;
+     width: 125px;
+     height: 120px;
+     top: 0;
+     left: 0;
+ }
+
+ .desktop .text-wrapper-18 {
+     position: absolute;
+     width: 309px;
+     height: 119px;
+     top: 1px;
+     left: 123px;
+     -webkit-text-stroke: 1px #1a1c28;
+     font-family: "Nunito", Helvetica;
+     font-weight: 400;
+     color: #ffffff;
+     font-size: 64px;
+     text-align: center;
+     letter-spacing: 0;
+     line-height: normal;
+ }
+
+ .desktop .danemenu {
+     display: flex;
+     width: 171px;
+     height: 119px;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     padding: 20px;
+     position: absolute;
+     top: 0;
+     left: 1016px;
+     background-color: #1a1c28;
+ }
+
+ .desktop .text-wrapper-19 {
+     position: relative;
+     width: fit-content;
+     font-family: "Nunito", Helvetica;
+     font-weight: 600;
+     color: #ffffff;
+     font-size: 40px;
+     letter-spacing: 0;
+     line-height: normal;
+ }
+
+ .desktop .overlap-8 {
+     position: absolute;
+     width: 475px;
+     height: 119px;
+     top: 0;
+     left: 541px;
+ }
+
+ .desktop .kamerymenu {
+     display: flex;
+     width: 219px;
+     height: 119px;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     padding: 20px;
+     position: absolute;
+     top: 0;
+     left: 256px;
+     background-color: #1a1c28;
+ }
+
+ .desktop .innowacjemenu {
+     display: flex;
+     width: 258px;
+     height: 119px;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     padding: 20px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     background-color: #1a1c28;
+ }
+
+ .desktop .cennikmenu {
+     display: flex;
+     width: 200px;
+     height: 119px;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     padding: 20px;
+     position: absolute;
+     top: 1px;
+     left: 1187px;
+     background-color: #1a1c28;
+ }
+
+ @media only screen and (max-width: 767px) {
+     .desktop {
+         display: none;
+     }
+
+     .iphone {
+         background-color: #ffffff;
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         width: 100%;
+     }
+
+     .iphone .div {
+         background-color: #ffffff;
+         overflow: hidden;
+         width: 390px;
+         height: 3871px;
+         position: relative;
+     }
+
+     .iphone .overlap {
+         position: absolute;
+         width: 1273px;
+         height: 3738px;
+         top: -39px;
+         left: -442px;
+         background: #4C5275;
+     }
+
+     .iphone .to {
+         position: absolute;
+         width: 390px;
+         height: 181px;
+         top: 73px;
+         left: 442px;
+     }
+
+     .iphone .logo {
+         position: absolute;
+         width: 52px;
+         height: 50px;
+         top: 67px;
+         left: 442px;
+     }
+
+     .iphone .rectangle {
+         position: absolute;
+         width: 390px;
+         height: 1601px;
+         top: 246px;
+         left: 442px;
+     }
+
+     .iphone .component {
+         position: absolute;
+         width: 350px;
+         height: 76px;
+         top: 293px;
+         left: 462px;
+         border-radius: 5.69px;
+     }
+
+     .iphone .FOOTBALIZA-ANALIZUJ-wrapper {
+         position: relative;
+         height: 76px;
+         background-image: url(./img/rectangle-71-3.svg);
+         background-size: 100% 100%;
+     }
+
+     .iphone .FOOTBALIZA-ANALIZUJ {
+         position: absolute;
+         width: 339px;
+         top: 9px;
+         left: 6px;
+         font-family: "Nunito", Helvetica;
+         font-weight: 600;
+         color: transparent;
+         font-size: 21.3px;
+         text-align: center;
+         letter-spacing: 0;
+         line-height: normal;
+     }
+
+     .iphone .text-wrapper {
+         color: #1a1c28;
+     }
+
+     .iphone .span {
+         color: #ffffff;
+     }
+
+     .iphone .OIG {
+         position: absolute;
+         width: 350px;
+         height: 258px;
+         top: 706px;
+         left: 459px;
+         object-fit: cover;
+     }
+
+     .iphone .img {
+         position: absolute;
+         width: 350px;
+         height: 258px;
+         top: 988px;
+         left: 657px;
+     }
+
+     .iphone .rectangle-2 {
+         position: absolute;
+         width: 424px;
+         height: 1200px;
+         top: 1842px;
+         left: 428px;
+         background-color: #1a1c28;
+     }
+
+     .iphone .pakiet {
+         position: absolute;
+         width: 285px;
+         height: 494px;
+         top: 2470px;
+         left: 497px;
+         background-color: #f2c01f;
+         border-radius: 23.46px;
+     }
+
+     .iphone .element-z-rok {
+         position: absolute;
+         top: 109px;
+         left: 64px;
+         font-family: "Nunito", Helvetica;
+         font-weight: 600;
+         color: #000000;
+         font-size: 56.3px;
+         letter-spacing: 0;
+         line-height: normal;
+     }
+
+     .iphone .text-wrapper-2 {
+         font-family: "Nunito", Helvetica;
+         font-weight: 600;
+         color: #000000;
+         font-size: 56.3px;
+         letter-spacing: 0;
+     }
+
+     .iphone .text-wrapper-3 {
+         font-size: 28.1px;
+     }
+
+     .iphone .pakiet-srebrny {
+         position: absolute;
+         width: 206px;
+         top: 38px;
+         left: 21px;
+         font-family: "Nunito", Helvetica;
+         font-weight: 600;
+         color: #1a1c28;
+         font-size: 28.1px;
+         letter-spacing: 0;
+         line-height: normal;
+     }
+
+     .iphone .overlap-group {
+         position: absolute;
+         width: 240px;
+         height: 232px;
+         top: 219px;
+         left: 23px;
+     }
+
+     .iphone .dost-p-do-aplikacji {
+         position: absolute;
+         width: 240px;
+         top: 0;
+         left: 0;
+         font-family: "Nunito", Helvetica;
+         font-weight: 400;
+         color: #1a1c28;
+         font-size: 18.8px;
+         letter-spacing: 0;
+         line-height: normal;
+     }
+
+     .iphone .frame {
+         display: flex;
+         width: 176px;
+         height: 59px;
+         align-items: center;
+         justify-content: center;
+         gap: 5.86px;
+         padding: 11.73px;
+         position: absolute;
+         top: 169px;
+         left: 60px;
+         background-color: #1a1c28;
+         border-radius: 11.73px;
+     }
+
+     .iphone .kamery {
+         position: relative;
+         flex: 1;
+         align-self: stretch;
+         margin-top: -0.59px;
+         font-family: "Nunito", Helvetica;
+         font-weight: 600;
+         color: #ffffff;
+         font-size: 23.5px;
+         text-align: center;
+         letter-spacing: 0;
+         line-height: normal;
+     }
+
+     .iphone .pakiet-2 {
+         position: absolute;
+         width: 285px;
+         height: 494px;
+         top: 1936px;
+         left: 497px;
+         background-color: #c0c0c0;
+         border-radius: 23.47px;
+     }
+
+     .iphone .text-wrapper-4 {
+         font-size: 28.2px;
+     }
+
+     .iphone .text-wrapper-5 {
+         position: absolute;
+         width: 206px;
+         top: 38px;
+         left: 21px;
+         font-family: "Nunito", Helvetica;
+         font-weight: 600;
+         color: #1a1c28;
+         font-size: 28.2px;
+         letter-spacing: 0;
+         line-height: normal;
+     }
+
+     .iphone .frame-2 {
+         display: flex;
+         width: 176px;
+         height: 59px;
+         align-items: center;
+         justify-content: center;
+         gap: 5.87px;
+         padding: 11.73px;
+         position: absolute;
+         top: 170px;
+         left: 60px;
+         background-color: #1a1c28;
+         border-radius: 11.73px;
+     }
+
+     .iphone .cennik {
+         position: absolute;
+         width: 806px;
+         height: 65px;
+         top: 1871px;
+         left: 235px;
+     }
+
+     .iphone .text-wrapper-6 {
+         position: absolute;
+         width: 804px;
+         top: 0;
+         left: 0;
+         font-family: "Nunito", Helvetica;
+         font-weight: 600;
+         color: #ffffff;
+         font-size: 24px;
+         text-align: center;
+         letter-spacing: 0;
+         line-height: normal;
+     }
+
+     .iphone .rectangle-73-1 {
+         position: absolute;
+         width: 390px;
+         height: 694px;
+         top: 3044px;
+         left: 442px;
+     }
+
+     .iphone .element {
+         position: absolute;
+         width: 387px;
+         top: 3575px;
+         left: 504px;
+         font-family: "Nunito", Helvetica;
+         font-weight: 400;
+         color: #ffffff;
+         font-size: 24px;
+         letter-spacing: 0;
+         line-height: normal;
+     }
+
+     .iphone .text-wrapper-7 {
+         font-family: "Nunito", Helvetica;
+         font-weight: 400;
+         color: #ffffff;
+         font-size: 24px;
+         letter-spacing: 0;
+     }
+
+     .iphone .text-wrapper-8 {
+         font-size: var(--tekst-w-sekcji-font-size);
+         font-family: var(--tekst-w-sekcji-font-family);
+         font-style: var(--tekst-w-sekcji-font-style);
+         font-weight: var(--tekst-w-sekcji-font-weight);
+         letter-spacing: var(--tekst-w-sekcji-letter-spacing);
+         line-height: var(--tekst-w-sekcji-line-height);
+     }
+
+     .iphone .text-wrapper-9 {
+         position: absolute;
+         width: 387px;
+         top: 3538px;
+         left: 505px;
+         font-family: "Nunito", Helvetica;
+         font-weight: 400;
+         color: #ffffff;
+         font-size: 24px;
+         letter-spacing: 0;
+         line-height: normal;
+     }
+
+     .iphone .text-wrapper-10 {
+         position: absolute;
+         width: 162px;
+         top: 3464px;
+         left: 462px;
+         font-family: var(--buttony-font-family);
+         font-weight: var(--buttony-font-weight);
+         color: #ffffff;
+         font-size: var(--buttony-font-size);
+         letter-spacing: var(--buttony-letter-spacing);
+         line-height: var(--buttony-line-height);
+         font-style: var(--buttony-font-style);
+     }
+
+     .iphone .e-mail {
+         position: absolute;
+         width: 24px;
+         height: 24px;
+         top: 3545px;
+         left: 463px;
+     }
+
+     .iphone .phone {
+         position: absolute;
+         width: 24px;
+         height: 24px;
+         top: 3582px;
+         left: 463px;
+     }
+
+     .iphone .kariera-w-footbaliza {
+         position: absolute;
+         width: 387px;
+         top: 3374px;
+         left: 463px;
+         font-family: "Nunito", Helvetica;
+         font-weight: 400;
+         color: #ffffff;
+         font-size: 24px;
+         letter-spacing: 0;
+         line-height: normal;
+     }
+
+     .iphone .text-wrapper-11 {
+         position: absolute;
+         width: 181px;
+         top: 3337px;
+         left: 463px;
+         font-family: "Nunito", Helvetica;
+         font-weight: 400;
+         color: #ffffff;
+         font-size: 24px;
+         letter-spacing: 0;
+         line-height: normal;
+     }
+
+     .iphone .text-wrapper-12 {
+         position: absolute;
+         width: 150px;
+         top: 3263px;
+         left: 462px;
+         font-family: var(--buttony-font-family);
+         font-weight: var(--buttony-font-weight);
+         color: #ffffff;
+         font-size: var(--buttony-font-size);
+         letter-spacing: var(--buttony-letter-spacing);
+         line-height: var(--buttony-line-height);
+         font-style: var(--buttony-font-style);
+     }
+
+     .iphone .reklama {
+         position: absolute;
+         width: 230px;
+         top: 3411px;
+         left: 463px;
+         font-family: "Nunito", Helvetica;
+         font-weight: 400;
+         color: #ffffff;
+         font-size: 24px;
+         letter-spacing: 0;
+         line-height: normal;
+     }
+
+     .iphone .inowacje {
+         position: absolute;
+         width: 350px;
+         height: 258px;
+         top: 408px;
+         left: 462px;
+     }
+
+     .iphone .innowacje {
+         position: relative;
+         height: 258px;
+     }
+
+     .iphone .innowacje-2 {
+         position: absolute;
+         width: 370px;
+         height: 527px;
+         top: 0;
+         left: 0;
+     }
+
+     .iphone .odwied-przysz-o {
+         position: absolute;
+         width: 314px;
+         height: 374px;
+         top: 477px;
+         left: 480px;
+         font-family: "Nunito", Helvetica;
+         font-weight: 400;
+         color: #ffffff;
+         font-size: 16px;
+         text-align: center;
+         letter-spacing: 0;
+         line-height: normal;
+         text-align: center;
+     }
+
+     .iphone .text-wrapper-13 {
+         position: absolute;
+         width: 1273px;
+         height: 75px;
+         top: 428px;
+         left: 0;
+         font-family: "Nunito", Helvetica;
+         font-weight: 600;
+         color: #ffffff;
+         font-size: 24px;
+         text-align: center;
+         letter-spacing: 0;
+         line-height: normal;
+     }
+
+     .iphone .button {
+         all: unset;
+         box-sizing: border-box;
+         display: flex;
+         width: 200px;
+         height: 60px;
+         align-items: center;
+         justify-content: center;
+         gap: 10px;
+         padding: 20px;
+         position: absolute;
+         top: 578px;
+         left: 537px;
+         background-color: #f2c01f;
+         border-radius: 15px;
+         text-align: center;
+     }
+
+     .iphone .text-wrapper-14 {
+         position: relative;
+         width: fit-content;
+         font-family: var(--buttony-font-family);
+         font-weight: var(--buttony-font-weight);
+         color: #1a1c28;
+         font-size: 30px;
+         text-align: center;
+         letter-spacing: var(--buttony-letter-spacing);
+         line-height: var(--buttony-line-height);
+         font-style: var(--buttony-font-style);
+     }
+
+
+     .iphone .innowacje-3 {
+         position: absolute;
+         width: 370px;
+         height: 527px;
+         top: 1003px;
+         left: 462px;
+     }
+
+     .iphone .w-sk-ad-zestawu {
+         position: absolute;
+         width: 314px;
+         height: 374px;
+         top: 1082px;
+         left: 480px;
+         font-family: "Nunito", Helvetica;
+         font-weight: 400;
+         color: #ffffff;
+         font-size: 16px;
+         text-align: center;
+         letter-spacing: 0;
+         line-height: normal;
+     }
+
+     .iphone .text-wrapper-15 {
+         position: absolute;
+         width: 1273px;
+         height: 75px;
+         top: 1023px;
+         left: 0;
+         font-size: 24px;
+         text-align: center;
+         font-family: "Nunito", Helvetica;
+         font-weight: 600;
+         color: #ffffff;
+         letter-spacing: 0;
+         line-height: normal;
+     }
+
+     .iphone .button-statyczny {
+         all: unset;
+         box-sizing: border-box;
+         top: 1173px;
+         display: flex;
+         width: 200px;
+         height: 60px;
+         align-items: center;
+         justify-content: center;
+         gap: 10px;
+         padding: 20px;
+         position: absolute;
+         left: 537px;
+         background-color: #f2c01f;
+         border-radius: 15px;
+     }
+
+     .iphone .innowacje-4 {
+         position: absolute;
+         width: 370px;
+         height: 527px;
+         top: 1538px;
+         left: 462px;
+     }
+
+     .iphone .footbaliza-pozwala {
+         position: absolute;
+         width: 314px;
+         height: 374px;
+         top: 1609px;
+         left: 480px;
+         font-family: "Nunito", Helvetica;
+         font-weight: 400;
+         color: #ffffff;
+         font-size: 16px;
+         text-align: center;
+         letter-spacing: 0;
+         line-height: normal;
+     }
+
+     .iphone .text-wrapper-16 {
+         position: absolute;
+         width: 1273px;
+         height: 75px;
+         top: 1023px;
+         left: 0;
+         font-size: 24px;
+         text-align: center;
+         font-family: "Nunito", Helvetica;
+         font-weight: 600;
+         color: #ffffff;
+         letter-spacing: 0;
+         line-height: normal;
+     }
+
+     .iphone .div-wrapper {
+         all: unset;
+         box-sizing: border-box;
+         top: 1708px;
+         display: flex;
+         width: 200px;
+         height: 60px;
+         align-items: center;
+         justify-content: center;
+         gap: 10px;
+         padding: 20px;
+         position: absolute;
+         left: 537px;
+         background-color: #f2c01f;
+         border-radius: 15px;
+     }
+
+     .iphone .rectangle-4 {
+         position: absolute;
+         width: 390px;
+         height: 74px;
+         top: 0;
+         left: 442px;
+         background-color: #000000;
+     }
+
+     .iphone .macbook-pro {
+         position: absolute;
+         width: 267px;
+         height: 258px;
+         top: 1270px;
+         left: 506px;
+         object-fit: cover;
+     }
+
+     .iphone .skontaktuj-si-z-nami {
+         position: absolute;
+         width: 387px;
+         top: 3173px;
+         left: 463px;
+         font-family: "Nunito", Helvetica;
+         font-weight: 400;
+         color: #ffffff;
+         font-size: 24px;
+         letter-spacing: 0;
+         line-height: normal;
+     }
+
+     .iphone .FAQ {
+         position: absolute;
+         width: 181px;
+         top: 3136px;
+         left: 463px;
+         font-family: "Nunito", Helvetica;
+         font-weight: 400;
+         color: #ffffff;
+         font-size: 24px;
+         letter-spacing: 0;
+         line-height: normal;
+     }
+
+     .iphone .text-wrapper-17 {
+         position: absolute;
+         width: 131px;
+         top: 3062px;
+         left: 462px;
+         font-family: var(--buttony-font-family);
+         font-weight: var(--buttony-font-weight);
+         color: #ffffff;
+         font-size: var(--buttony-font-size);
+         letter-spacing: var(--buttony-letter-spacing);
+         line-height: var(--buttony-line-height);
+         font-style: var(--buttony-font-style);
+     }
+
+     .iphone .mapa-strony {
+         position: absolute;
+         width: 230px;
+         top: 3210px;
+         left: 463px;
+         font-family: "Nunito", Helvetica;
+         font-weight: 400;
+         color: #ffffff;
+         font-size: 24px;
+         letter-spacing: 0;
+         line-height: normal;
+     }
+
+     .iphone .element-px {
+         position: absolute;
+         width: 80px;
+         height: 80px;
+         top: 1796px;
+         left: 597px;
+     }
+
+     .iphone .element-2 {
+         position: absolute;
+         width: 80px;
+         height: 80px;
+         top: 2964px;
+         left: 595px;
+     }
+
+     .iphone .element-3 {
+         position: absolute;
+         width: 40px;
+         height: 40px;
+         top: 3043px;
+         left: 462px;
+     }
+
+     .iphone .component-wrapper {
+         position: absolute;
+         width: 350px;
+         height: 132px;
+         top: -1456px;
+         left: 20px;
+         background-color: #f2c01f;
+         border-radius: 20px;
+     }
+
+     .iphone .component-2 {
+         position: relative;
+         height: 132px;
+     }
+
+     .iphone .rectangle-5 {
+         position: absolute;
+         width: 350px;
+         height: 132px;
+         top: 3392px;
+         left: 175px;
+     }
+
+     .iphone .p {
+         position: absolute;
+         width: 339px;
+         top: 15px;
+         left: 6px;
+         font-family: "Nunito", Helvetica;
+         font-weight: 600;
+         color: transparent;
+         font-size: 24px;
+         text-align: center;
+         letter-spacing: 0;
+         line-height: normal;
+     }
+
+     .iphone .text-wrapper-18 {
+         color: #ffffff;
+         font-size: 20px;
+     }
+
+     .iphone .group {
+         position: absolute;
+         width: 390px;
+         height: 172px;
+         top: 3699px;
+         left: 0;
+         background-color: #1a1c28;
+     }
+
+     .iphone .social-icons {
+         position: absolute;
+         width: 30px;
+         height: 30px;
+         top: 26px;
+         left: 18px;
+         mix-blend-mode: lighten;
+     }
+
+     .iphone .social-icons-2 {
+         left: 98px;
+         position: absolute;
+         width: 30px;
+         height: 30px;
+         top: 26px;
+         mix-blend-mode: lighten;
+     }
+
+     .iphone .social-icons-3 {
+         left: 338px;
+         position: absolute;
+         width: 30px;
+         height: 30px;
+         top: 26px;
+         mix-blend-mode: lighten;
+     }
+
+     .iphone .social-icons-4 {
+         left: 178px;
+         position: absolute;
+         width: 30px;
+         height: 30px;
+         top: 26px;
+         mix-blend-mode: lighten;
+     }
+
+     .iphone .social-icons-5 {
+         left: 258px;
+         position: absolute;
+         width: 30px;
+         height: 30px;
+         top: 26px;
+         mix-blend-mode: lighten;
+     }
+
+     .iphone .menu {
+         position: fixed;
+         width: 391px;
+         height: 74px;
+         top: 773px;
+         left: 0;
+     }
+
+     .iphone .overlap-2 {
+         display: flex;
+         /* Dodaj tę właściwość */
+         position: relative;
+         height: 74px;
+         justify-content: center;
+         align-items: center;
+     }
+
+     .iphone .rectangle-6 {
+         position: relative;
+         width: 390px;
+         height: 73px;
+         left: 1px;
+         background-color: #1a1c28;
+     }
+
+     .iphone .danemenu {
+         display: flex;
+         width: 79px;
+         height: 73px;
+         align-items: center;
+         justify-content: center;
+         gap: 4.61px;
+         padding: 9.21px;
+         position: absolute;
+         top: 1px;
+         left: 220px;
+         background-color: #1a1c28;
+     }
+
+     .iphone .text-wrapper-19 {
+         position: relative;
+         width: fit-content;
+         font-size: 18.4px;
+         font-family: "Nunito", Helvetica;
+         font-weight: 600;
+         color: #ffffff;
+         letter-spacing: 0;
+         line-height: normal;
+     }
+
+     .iphone .kamerymenu {
+         display: flex;
+         width: 101px;
+         height: 73px;
+         align-items: center;
+         justify-content: center;
+         gap: 4.61px;
+         padding: 9.21px;
+         position: absolute;
+         top: 1px;
+         left: 119px;
+         background-color: #1a1c28;
+     }
+
+     .iphone .kamerymenu-2 {
+         display: flex;
+         width: 92px;
+         height: 73px;
+         align-items: center;
+         justify-content: center;
+         gap: 4.61px;
+         padding: 9.21px;
+         position: absolute;
+         top: 1px;
+         left: 299px;
+         background-color: #1a1c28;
+     }
+
+     .iphone .innowacjemenu {
+         display: flex;
+         width: 119px;
+         height: 73px;
+         align-items: center;
+         justify-content: center;
+         gap: 4.61px;
+         padding: 9.21px;
+         position: absolute;
+         top: 1px;
+         left: 0;
+         background-color: #1a1c28;
+     }
+
+
+ }
